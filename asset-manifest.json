@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-d/static/css/main.93cc8ba4.css",
+    "main.js": "/react-d/static/js/main.e1b036c0.js",
+    "static/media/ava.jpg": "/react-d/static/media/ava.77ea9e9c19d1f7add258.jpg",
+    "static/media/post.jpg": "/react-d/static/media/post.00e9f8d6b213533a48f2.jpg",
+    "static/media/back.jpg": "/react-d/static/media/back.4332a64efc88c545505a.jpg",
+    "static/media/icon-settings.png": "/react-d/static/media/icon-settings.d1118b10847703602e82.png",
+    "static/media/icon-blog.png": "/react-d/static/media/icon-blog.773a44607d6419f69234.png",
+    "static/media/icon-exit.png": "/react-d/static/media/icon-exit.f2a62590d2b55ba324e7.png",
+    "static/media/icon-favorite.png": "/react-d/static/media/icon-favorite.d83597456454605ff94b.png",
+    "static/media/heart.svg": "/react-d/static/media/heart.e7c3d0de2327ed768cd70a79b9127059.svg",
+    "index.html": "/react-d/index.html",
+    "main.93cc8ba4.css.map": "/react-d/static/css/main.93cc8ba4.css.map",
+    "main.e1b036c0.js.map": "/react-d/static/js/main.e1b036c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93cc8ba4.css",
+    "static/js/main.e1b036c0.js"
+  ]
+}
