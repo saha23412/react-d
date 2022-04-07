@@ -1,0 +1,11 @@
+.postsWrapper {
+    width: calc(100%-250px);
+    margin-left: 300px;
+}
+
+.posts {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

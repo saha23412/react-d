@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 6px 5px;
+    border-bottom: 1px solid #aeaeae;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
