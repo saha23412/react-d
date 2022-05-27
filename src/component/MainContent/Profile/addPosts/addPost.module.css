@@ -1,0 +1,24 @@
+.Post {
+    border: 1px solid teal;
+    padding: 10px;
+    min-width: 440px;
+    border-radius: 8px;
+}
+
+.contentPost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentPost p {
+    margin-right: 25px;
+}
+
+.contentPost span {
+    margin-left: 25px;
+}
+
+.imagesAdd {
+    height: 21px;
+}

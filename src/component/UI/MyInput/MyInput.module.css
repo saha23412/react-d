@@ -1,0 +1,13 @@
+.MyInput {
+    padding: 5px;
+    border: 1.5px solid teal;
+    transition: all ease .5s;
+    height: 35px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.MyInput:hover {
+    background-color: rgb(20, 133, 246);
+    transition: all ease .5s;
+}

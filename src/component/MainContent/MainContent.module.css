@@ -1,0 +1,12 @@
+.MainContent {
+    width: 600px;
+    border-left: 1px solid teal;
+    border-right: 1px solid teal;
+    height: 100vh;
+}
+
+.routeContent {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

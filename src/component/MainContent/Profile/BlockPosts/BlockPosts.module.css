@@ -1,0 +1,26 @@
+.post {
+    max-width: 600px;
+    border: 1px solid teal;
+    padding: 10px;
+    min-height: 50px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nameBlock {
+    max-width: 600px;
+    text-align: center;
+}
+
+.nameBlock span {
+    display: inline-block;
+    padding: 0 10px;
+    border-bottom: 1px solid teal;
+    min-width: 100px;
+}
+
+.postContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

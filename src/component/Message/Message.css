@@ -1,0 +1,49 @@
+.message_wrapper {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.message_wrapper img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.message_wrapper p {
+    padding: 10px;
+    display: inline-block;
+    max-width: 50%;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.message_wrapper small {
+    display: inline-block;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.message_wrapper.own {
+    text-align: right;
+}
+
+.me {
+    background-color: rgb(100, 100, 100);
+    color: rgb(238, 238, 238);
+    -webkit-border-radius: 30px;
+    -webkit-border-bottom-right-radius: 1px;
+    -moz-border-radius: 30px;
+    -moz-border-radius-bottomright: 1px;
+    border-radius: 30px;
+    border-bottom-right-radius: 1px;
+}
+
+.friend {
+    background-color: rgb(48, 48, 48);
+    color: rgb(238, 238, 238);
+    -webkit-border-radius: 30px;
+    -webkit-border-bottom-left-radius: 1px;
+    -moz-border-radius: 30px;
+    -moz-border-radius-bottomleft: 1px;
+    border-radius: 30px;
+    border-bottom-left-radius: 1px;
+}

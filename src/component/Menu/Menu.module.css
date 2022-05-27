@@ -1,0 +1,61 @@
+.menu {
+    padding: 5px;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_menu img {
+    height: 30px;
+}
+
+.main_menu>li {
+    margin: 0px 25px;
+}
+
+.iconsMan {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.iconsMan img {
+    border: 0.5px solid black;
+    border-radius: 50%;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 15px;
+}
+
+.iconsMan:hover img {
+    opacity: 0.4;
+}
+
+.iconsMan:hover .overlay {
+    opacity: 1;
+}
+
+.User {
+    margin: 0 15px;
+}
+
+.iconsLogo span {
+    padding: 0 15px;
+}
+
+.overlay {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 5px;
+}

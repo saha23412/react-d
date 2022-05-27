@@ -1,0 +1,28 @@
+.MainSettingsContainer button {
+    background-color: inherit;
+    border: 2px solid teal;
+    margin-top: 25px;
+    padding: 10px 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.inpMyInp {
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid teal;
+    transition: all ease .4s;
+    border-radius: 5px;
+}
+
+.MainSettings {
+    margin-top: 15px;
+}
+
+.MainSettings p {
+    margin-bottom: 10px;
+}
+
+.blockInteraction {
+    justify-content: center;
+}

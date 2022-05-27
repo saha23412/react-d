@@ -1,0 +1,25 @@
+body {
+    position: relative;
+}
+
+.containerForm {
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    margin-bottom: 100px;
+}
+
+.message_form {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.message_form input {
+    width: 20vw;
+    margin: 0px 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}

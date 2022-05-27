@@ -1,0 +1,75 @@
+.containerFriends {
+    position: relative;
+}
+
+ ::-webkit-scrollbar {
+    height: 10px;
+    width: 9px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: rgb(238, 238, 238)
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: rgb(181, 179, 179);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(206, 205, 205);
+}
+
+.usersFriends {
+    display: flex;
+    overflow-x: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.messages_user {
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+    background-color: rgb(238, 238, 238);
+}
+
+.no_messages {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.friendsInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friendsInfo h3 {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.friends {
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.messages {
+    height: 350px;
+    overflow-y: auto;
+    border-bottom: 1px solid teal;
+}
+
+.messages ::-webkit-scrollbar-track {
+    background-color: rgb(238, 238, 238);
+}
+
+.messages ::-webkit-scrollbar-thumb {
+    background-color: teal;
+    border-radius: 10px;
+}

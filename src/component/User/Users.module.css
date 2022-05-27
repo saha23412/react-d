@@ -1,0 +1,47 @@
+.user_wrapper {
+    display: flex;
+    min-width: 120px;
+    min-height: 85px;
+    padding: 5px;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid teal;
+    margin: 0 5px 10px;
+    text-align: center;
+    border-radius: 35%;
+    transition: all ease 0.5s;
+    -webkit-border-radius: 100px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius: 100px;
+    -moz-border-radius-topleft: 10px;
+    border-radius: 100px;
+    border-top-left-radius: 10px;
+}
+
+.user_info {
+    padding: 5px;
+}
+
+.user_wrapper:hover {
+    background-color: rgb(230, 230, 230);
+    transition: all ease 0.5s;
+}
+
+.user_information {
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.avatar {
+    margin-bottom: 3px;
+}
+
+.user_name {
+    font-size: 14px;
+}
+
+.user_information img {
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

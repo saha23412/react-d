@@ -1,0 +1,13 @@
+.containerNewsList {
+    padding: 15px;
+}
+
+.textField {
+    width: 500px;
+}
+
+.containerTextField {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}

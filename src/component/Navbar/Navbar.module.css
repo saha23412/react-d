@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 70px;
+    padding: 0px 20px;
+    border-bottom: 1px solid teal;
+}
+
+.iconsLogo {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.iconsLogo img {
+    width: 55px;
+    height: 55px;
+    margin: 0 15px;
+}
+
+.nav h3 a {
+    color: black;
+}
+
+.nav div a {
+    color: black;
+    margin-right: 10px;
+}

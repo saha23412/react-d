@@ -1,0 +1,14 @@
+.naviagation {
+    flex-direction: column;
+    display: flex;
+}
+
+.naviagation img {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.linkNav {
+    margin-top: 15px;
+    display: flex;
+}
